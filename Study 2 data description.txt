@@ -1,0 +1,247 @@
+Experiment: CM
+
+70 subjects
+Missing values coded with: NaN
+______________________________________________________________
+Subject Level
+
+Description:
+	id: Unique text identifier for each subject (e.g., subject code)
+	names: cell array containing names for each variable in .data and .textdata.
+	type: cell array identifying variable type; used to index .data or .textdata.
+	      Acceptable values are either 'text' or 'numeric'
+	units: cell array identifying units used for each variable (e.g. seconds, count, text)
+	descrip: cell array providing detailed description of each variable in .names
+	data: cell array, one cell per subject, with rectangular data matrix.
+	      Each row is one subject, each column a variable, with names in .names
+	      Numeric data only, text data is assigned as NaN
+	textdata: cell array, one cell per subject, with cell matrix.
+	      Each row is one subject, each column a variable, with names in .names
+	      Text data only, numeric data is assigned as ''
+
+	notes on variables:
+		<many of the descriptions are wrong! :-/ >
+		Exp_pst* refer to an ad hoc self-report q'aire filled out after the intervention
+		PANAS was administered before and after both scan sessions
+		IOS 
+
+Names:
+	Group	CM, OxyPla, Famlr
+	Med vs Controls	Med, Control Groups
+	Exp_pre	Expectations of effectivness in cultivating compassion
+	Exp_pre_cert	Confidence in expectations
+	Exp_pst1	Change in compassionate feeling and behavior
+	Exp_pst2	Confidence in change
+	Exp_pst3	compassionate feelings towards yourself
+	Exp_pst4	compassionate feelings towards close others
+	Exp_pst5	compassionate feelings towards strangers
+	Exp_pst6	compassionate behavior towards yourself
+	Exp_pst7	compassionate behavior towards close others
+	Exp_pst8	compassionate behavior towards strangers
+	occ1	Occassion 1 ID
+	occ2	Occassion 2 ID
+	dayscompleted	# of Intervention Days Completed
+	sequence	target sequence during intervention
+	PANASPreT1pos	
+	PANASPreT1neg	
+	PANASPostT1pos	
+	PANASPostT1neg	
+	PANASPreT2pos	
+	PANASPreT2neg	
+	PANASPostT2pos	
+	PANASPostT2neg	
+	IOSpre	Inclusion of Self in Other
+	IOSpost	
+	Age	
+	Gender	
+	MITE1	Reading the Mind in the Eyes
+	MITE2	
+	daysCorr	Number of days completed
+	daysPerCorr	Number of days completed / 28
+	SSES1	Subjective SES
+	SSES2	
+	SSESdiff	
+	SSESavg	
+	Stranger1	Takersley et al subscales, I think
+	Stranger2	
+	Strangerdiff	
+	Strangeravg	
+	Friend1	
+	Friend2	
+	Frienddiff	
+	Friendavg	
+	PerspectiveTaking1	IRI subscales
+	PerspectiveTaking2	
+	PerspectiveTakingdiff	
+	PerspectiveTakingavg	
+	FantasyScale1	
+	FantasyScale2	
+	FantasyScalediff	
+	FantasyScaleavg	
+	EmpathicConcern1	
+	EmpathicConcern2	
+	EmpathicConcerndiff	
+	EmpathicConcernavg	
+	PersonalDistress1	
+	PersonalDistress2	
+	PersonalDistressdiff	
+	PersonalDistressavg	
+	Observe1	FFMQ subscales
+	Observe2	
+	Observediff	
+	Observeavg	
+	Describe1	
+	Describe2	
+	Describediff	
+	Describeavg	
+	ActWithAwareness1	
+	ActWithAwareness2	
+	ActWithAwarenessdiff	
+	ActWithAwarenessavg	
+	Nonjudge1	
+	Nonjudge2	
+	Nonjudgediff	
+	Nonjudgeavg	
+	Nonreact1	
+	Nonreact2	
+	Nonreactdiff	
+	Nonreactavg	
+	SelfKindness1	SCS subscales
+	SelfKindness2	
+	SelfKindnessdiff	
+	SelfKindnessavg	
+	SelfJudgment1	
+	SelfJudgment2	
+	SelfJudgmentdiff	
+	SelfJudgmentavg	
+	CommonHumanity1	
+	CommonHumanity2	
+	CommonHumanitydiff	
+	CommonHumanityavg	
+	Isolation1	
+	Isolation2	
+	Isolationdiff	
+	Isolationavg	
+	Mindfulness1	
+	Mindfulness2	
+	Mindfulnessdiff	
+	Mindfulnessavg	
+	OverIdentified1	
+	OverIdentified2	
+	OverIdentifieddiff	
+	OverIdentifiedavg	
+	SocialDesirability1	
+	SocialDesirability2	
+	SocialDesirabilitydiff	
+	SocialDesirabilityavg	
+	SCS1	
+	SCS2	
+	SCSdiff	
+	SCSavg	
+	IRI1	
+	IRI2	
+	IRIdiff	
+	IRIavg	
+	FFMQ1	
+	FFMQ2	
+	FFMQdiff	
+	FFMQavg	
+	MITEavg	
+	MITEdiff	
+	IOSavg	
+	IOSdiff	
+	med_vs_other	Contrast codes for group differences
+	oxy_vs_faml	
+	med_vs_other_effect	
+	med_vs_oxy	
+	faml_vs_other	
+	don_perc_increase	Changes in donation variables, and see below
+	DeltaDon_avg	
+	DeltaDon_mdn	
+	DeltaDon_rank	
+	deltatenderness_mean	Changes in individual FAS components
+	deltadistress_mean	
+	deltaneed_mean	
+	deltaresp_mean	
+	deltalike_mean	
+	deltaintsim_mean	
+	deltaextsim_mean	
+	DeltaDist_mean	
+	DeltaTend_mean	
+	donavg	avg don
+	deltadon	main effect of time on don
+	don1	time1 don
+	don2	time2 don
+	avgFAS	avg CC
+	deltaFAS	main effect of time on CC
+	FAS1	time 1 FAS score
+	FAS2	time 2 FAS score
+	sdDon1	standard dev. donation
+	sdDon2	
+	sdDonavg	
+	sdDondiff	
+	implemented_donation	
+______________________________________________________________
+Event Level
+
+Description:
+	names: cell array containing names for each variable in .data and .textdata.
+	type: cell array identifying variable type; used to index .data or .textdata.
+	      Acceptable values are either 'text' or 'numeric'
+	units: cell array identifying units used for each variable (e.g. seconds, count, text)
+	descrip: cell array providing detailed description of each variable in .names
+	data: cell array, one cell per subject, with rectangular data matrix.
+	      Each row is one event, each column a variable, with names in .names
+	      Numeric .type data only, text .type data is assigned as NaN
+	textdata: cell array, one cell per subject, with cell matrix.
+	      Each row is one event, each column a variable, with names in .names
+	      Text .type data only, numeric .type data is assigned as ''
+Names:
+	trained	Was this target trained?
+	targ_gender	target gender m=0
+	sim_gender	sim gender yes/no'Don time 1
+	Don1	Don time 2
+	Don2	Change in Donation
+	DeltaDon	In-scan Tend1
+	Tend1	In-scan Tend2
+	Tend2	Change in in-scan Tenderness
+	DeltaTend	In-scan Distress at time 1
+	Dist1	In-scan Distress at time 2
+	Dist2	Change in in-scan Distress
+	DeltaDist	post-scan tend1
+	tenderness1	post-scan dist1
+	distress1	intsim1
+	intsim1	extsim1
+	extsim1	need1
+	need1	resp1
+	resp1	like1
+	like1	post-scan tenderness time2
+	tenderness2	post-scan distress time2
+	distress2	intsim2
+	intsim2	extsim2
+	extsim2	need2
+	need2	resp2
+	resp2	like2
+	like2	Change in post-scan Tenderness
+	deltatenderness	Change in post-scan Distress
+	deltadistress	Change in Intsim
+	deltaintsim	Change in Extsim
+	deltaextsim	Change in Need
+	deltaneed	Change in Responsibility
+	deltaresp	Change in Likability
+	deltalike	
+	listen_onset1	
+	rate_onset1	
+	relisten_onset1	
+	don_onset1	
+	rate_RT1	
+	don_RT1	
+	listen_onset2	
+	rate_onset2	
+	relisten_onset2	
+	don_onset2	
+	rate_RT2	
+	don_RT2	
+	FASscores1	FAS scores time1 from ML-GLM with 6 preds (no like), n=200
+	FASscores2	FAS scores time2 from ML-GLM with 6 preds (no like), n=200
+______________________________________________________________
