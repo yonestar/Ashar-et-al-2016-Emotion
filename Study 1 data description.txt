@@ -1,0 +1,292 @@
+Experiment: CompTextGen
+
+270 subjects
+Missing values coded with: NaN
+______________________________________________________________
+Subject Level
+
+Description:
+	id: Unique text identifier for each subject (e.g., subject code)
+	data: cell array, one cell per subject, with rectangular data matrix.
+	      Each row is one event, each column a variable, with names in .names
+Names:
+	NEO_PI_R_Anxiety	NEO_PI_R_Anxiety
+	NEO_PI_R_Activity	NEO_PI_R_Activity
+	TCI_Impulsiveness	TCI_Impulsiveness
+	TCI_Extravagance	TCI_Extravagance
+	TCI_Disorderliness	TCI_Disorderliness
+	TCI_Worry___pessimism	TCI_Worry___pessimism
+	TCI_Fear_of_uncertainty	TCI_Fear_of_uncertainty
+	TCI_Shyness_with_strangers	TCI_Shyness_with_strangers
+	TCI_Fatigability___asthenia	TCI_Fatigability___asthenia
+	TCI_Sentimentality	TCI_Sentimentality
+	TCI_Warm_communication	TCI_Warm_communication
+	TCI_Attachment	TCI_Attachment
+	NEO_PI_R_Excitement_Seeking	NEO_PI_R_Excitement_Seeking
+	TCI_Dependence	TCI_Dependence
+	TCI_Eagerness_of_effort	TCI_Eagerness_of_effort
+	TCI_Work_hardened	TCI_Work_hardened
+	TCI_Ambitious	TCI_Ambitious
+	TCI_Perfectionist	TCI_Perfectionist
+	TCI_Responsibility	TCI_Responsibility
+	TCI_Purposefulness	TCI_Purposefulness
+	TCI_Resourcefulness	TCI_Resourcefulness
+	TCI_Self_acceptance	TCI_Self_acceptance
+	TCI_Enlightened_second_nature	TCI_Enlightened_second_nature
+	NEO_PI_R_Positive_Emotions	NEO_PI_R_Positive_Emotions
+	TCI_Social_acceptance	TCI_Social_acceptance
+	TCI_Empathy	TCI_Empathy
+	TCI_Helpfulness	TCI_Helpfulness
+	TCI_Compassion	TCI_Compassion
+	TCI_Pure_hearted_conscience	TCI_Pure_hearted_conscience
+	TCI_Self_forgetful	TCI_Self_forgetful
+	TCI_Transpersonal_identification	TCI_Transpersonal_identification
+	TCI_Spiritual_acceptance	TCI_Spiritual_acceptance
+	TCI_Enlightened	TCI_Enlightened
+	TCI_Idealistic	TCI_Idealistic
+	NEO_PI_R_Fantasy	NEO_PI_R_Fantasy
+	CPI_Dominance	CPI_Dominance
+	CPI_Capacity_for_Status	CPI_Capacity_for_Status
+	CPI_Sociability	CPI_Sociability
+	CPI_Social_Presence	CPI_Social_Presence
+	CPI_Self_acceptance	CPI_Self_acceptance
+	CPI_Independence	CPI_Independence
+	CPI_Empathy	CPI_Empathy
+	CPI_Responsibility	CPI_Responsibility
+	CPI_Socialization	CPI_Socialization
+	CPI_Self_control	CPI_Self_control
+	NEO_PI_R_Aesthetics	NEO_PI_R_Aesthetics
+	CPI_Good_Impression	CPI_Good_Impression
+	CPI_Communality	CPI_Communality
+	CPI_Well_being	CPI_Well_being
+	CPI_Tolerance	CPI_Tolerance
+	CPI_Achievement_via_Conformance	CPI_Achievement_via_Conformance
+	CPI_Achievement_via_Independence	CPI_Achievement_via_Independence
+	CPI_Intellectual_Efficiency	CPI_Intellectual_Efficiency
+	CPI_Psychological_mindedness	CPI_Psychological_mindedness
+	CPI_Flexibility	CPI_Flexibility
+	CPI_Femininity	CPI_Femininity
+	NEO_PI_R_Feelings	NEO_PI_R_Feelings
+	CPI_Vector1	CPI_Vector1
+	CPI_Vector2	CPI_Vector2
+	CPI_Vector3	CPI_Vector3
+	CPI_Managerial_Potential	CPI_Managerial_Potential
+	CPI_Work_Orientation	CPI_Work_Orientation
+	CPI_Creative_Temperament	CPI_Creative_Temperament
+	CPI_Leadership	CPI_Leadership
+	CPI_Amicability	CPI_Amicability
+	CPI_Law_Enforcement_Orientation	CPI_Law_Enforcement_Orientation
+	CPI_Tough_mindedness	CPI_Tough_mindedness
+	NEO_PI_R_Actions	NEO_PI_R_Actions
+	HPI_Empathy	HPI_Empathy
+	HPI_Not_anxious	HPI_Not_anxious
+	HPI_No_guilt	HPI_No_guilt
+	HPI_Calmness	HPI_Calmness
+	HPI_Even_tempered	HPI_Even_tempered
+	HPI_No_somatic_complaints	HPI_No_somatic_complaints
+	HPI_Trusting	HPI_Trusting
+	HPI_Good_attachment	HPI_Good_attachment
+	HPI_Competitive	HPI_Competitive
+	HPI_Self_confidence	HPI_Self_confidence
+	NEO_PI_R_Ideas	NEO_PI_R_Ideas
+	HPI_No_depression	HPI_No_depression
+	HPI_Leadership	HPI_Leadership
+	HPI_Identity	HPI_Identity
+	HPI_No_social_anxiety	HPI_No_social_anxiety
+	HPI_Likes_parties	HPI_Likes_parties
+	HPI_Likes_crowds	HPI_Likes_crowds
+	HPI_Experience_seeking	HPI_Experience_seeking
+	HPI_Exhibitionistic	HPI_Exhibitionistic
+	HPI_Entertaining	HPI_Entertaining
+	HPI_Easy_to_live_with	HPI_Easy_to_live_with
+	NEO_PI_R_Values	NEO_PI_R_Values
+	HPI_Sensitive	HPI_Sensitive
+	HPI_Caring	HPI_Caring
+	HPI_Likes_people	HPI_Likes_people
+	HPI_No_hostility	HPI_No_hostility
+	HPI_Moralistic	HPI_Moralistic
+	HPI_Mastery	HPI_Mastery
+	HPI_Virtuous	HPI_Virtuous
+	HPI_not_autonomous	HPI_not_autonomous
+	HPI_Not_spontaneous	HPI_Not_spontaneous
+	HPI_Impulse_control	HPI_Impulse_control
+	NEO_PI_R_Trust	NEO_PI_R_Trust
+	HPI_Avoids_trouble	HPI_Avoids_trouble
+	HPI_Science_ability	HPI_Science_ability
+	HPI_Curiosity	HPI_Curiosity
+	HPI_Thrill_seeking	HPI_Thrill_seeking
+	HPI	HPI
+	HPI_Generates_ideas	HPI_Generates_ideas
+	HPI_Culture	HPI_Culture
+	HPI_Education	HPI_Education
+	HPI_Good_memory	HPI_Good_memory
+	NEO_PI_R_Angry_Hostility	NEO_PI_R_Angry_Hostility
+	NEO_PI_R_Straightforwardness	NEO_PI_R_Straightforwardness
+	HPI_Reading	HPI_Reading
+	HPI_Self_focus	HPI_Self_focus
+	HPI_Impression_management	HPI_Impression_management
+	HPI_Appearance	HPI_Appearance
+	NEO_PI_R_Altruism	NEO_PI_R_Altruism
+	NEO_PI_R_Compliance	NEO_PI_R_Compliance
+	NEO_PI_R_Modesty	NEO_PI_R_Modesty
+	NEO_PI_R_Tender_Mindedness	NEO_PI_R_Tender_Mindedness
+	NEO_PI_R_Competence	NEO_PI_R_Competence
+	NEO_PI_R_Order	NEO_PI_R_Order
+	NEO_PI_R_Dutifulness	NEO_PI_R_Dutifulness
+	NEO_PI_R_Achievement_Striving	NEO_PI_R_Achievement_Striving
+	NEO_PI_R_Self_Discipline	NEO_PI_R_Self_Discipline
+	NEO_PI_R_Depression	NEO_PI_R_Depression
+	NEO_PI_R_Deliberation	NEO_PI_R_Deliberation
+	HEXACO_PI_Sincerity	HEXACO_PI_Sincerity
+	HEXACO_PI_Fairness	HEXACO_PI_Fairness
+	HEXACO_PI_Greed_Avoidance	HEXACO_PI_Greed_Avoidance
+	HEXACO_PI_Modesty	HEXACO_PI_Modesty
+	HEXACO_PI_Fearfulness	HEXACO_PI_Fearfulness
+	HEXACO_PI_Anxiety	HEXACO_PI_Anxiety
+	HEXACO_PI_Dependence	HEXACO_PI_Dependence
+	HEXACO_PI_Sentimentality	HEXACO_PI_Sentimentality
+	HEXACO_PI_Expressiveness	HEXACO_PI_Expressiveness
+	NEO_PI_R_Self_Consciousness	NEO_PI_R_Self_Consciousness
+	HEXACO_PI_Social_Boldness	HEXACO_PI_Social_Boldness
+	HEXACO_PI_Sociability	HEXACO_PI_Sociability
+	HEXACO_PI_Liveliness	HEXACO_PI_Liveliness
+	HEXACO_PI_Forgiveness	HEXACO_PI_Forgiveness
+	HEXACO_PI_Gentleness	HEXACO_PI_Gentleness
+	HEXACO_PI_Flexibility	HEXACO_PI_Flexibility
+	HEXACO_PI_Patience	HEXACO_PI_Patience
+	HEXACO_PI_Organization	HEXACO_PI_Organization
+	HEXACO_PI_Diligence	HEXACO_PI_Diligence
+	HEXACO_PI_Perfectionism	HEXACO_PI_Perfectionism
+	NEO_PI_R_Impulsiveness	NEO_PI_R_Impulsiveness
+	HEXACO_PI_Prudence	HEXACO_PI_Prudence
+	HEXACO_PI_Aesthetic_Appreciation	HEXACO_PI_Aesthetic_Appreciation
+	HEXACO_PI_Inquisitiveness	HEXACO_PI_Inquisitiveness
+	HEXACO_PI_Creativity	HEXACO_PI_Creativity
+	HEXACO_PI_Unconventionality	HEXACO_PI_Unconventionality
+	JPI_R_Complexity	JPI_R_Complexity
+	JPI_R_Breadth_of_Interest	JPI_R_Breadth_of_Interest
+	JPI_R_Innovation	JPI_R_Innovation
+	JPI_R_Tolerance	JPI_R_Tolerance
+	JPI_R_Empathy	JPI_R_Empathy
+	NEO_PI_R_Vulnerability	NEO_PI_R_Vulnerability
+	JPI_R_Anxiety	JPI_R_Anxiety
+	JPI_R_Cooperativeness	JPI_R_Cooperativeness
+	JPI_R_Sociability	JPI_R_Sociability
+	JPI_R_Social_Confidence	JPI_R_Social_Confidence
+	JPI_R_Energy_Level	JPI_R_Energy_Level
+	JPI_R_Social_Astuteness	JPI_R_Social_Astuteness
+	JPI_R_Risk_Taking	JPI_R_Risk_Taking
+	JPI_R_Organization	JPI_R_Organization
+	JPI_R_Traditional_Values	JPI_R_Traditional_Values
+	JPI_R_Responsibility	JPI_R_Responsibility
+	NEO_PI_R_Warmth	NEO_PI_R_Warmth
+	MPQ_Well_being	MPQ_Well_being
+	MPQ_Social_Potency	MPQ_Social_Potency
+	MPQ_Achievement	MPQ_Achievement
+	MPQ_Social_Closeness	MPQ_Social_Closeness
+	MPQ_Stress_Reaction	MPQ_Stress_Reaction
+	MPQ_Aggression	MPQ_Aggression
+	MPQ_Alienation	MPQ_Alienation
+	MPQ_Control	MPQ_Control
+	MPQ_Harm_avoidance	MPQ_Harm_avoidance
+	MPQ_Traditionalism	MPQ_Traditionalism
+	NEO_PI_R_Gregariousness	NEO_PI_R_Gregariousness
+	MPQ_Absorption	MPQ_Absorption
+	aa_6_FPQ_Affiliation	aa_6_FPQ_Affiliation
+	aa_6_FPQ_Dominance	aa_6_FPQ_Dominance
+	aa_6_FPQ_Exhibition	aa_6_FPQ_Exhibition
+	aa_6_FPQ_Abasement	aa_6_FPQ_Abasement
+	aa_6_FPQ_Even_tempered	aa_6_FPQ_Even_tempered
+	aa_6_FPQ_Good_natured	aa_6_FPQ_Good_natured
+	aa_6_FPQ_Cognitive_Structure	aa_6_FPQ_Cognitive_Structure
+	aa_6_FPQ_Deliberativeness	aa_6_FPQ_Deliberativeness
+	aa_6_FPQ_Order	aa_6_FPQ_Order
+	NEO_PI_R_Assertiveness	NEO_PI_R_Assertiveness
+	aa_6_FPQ_Autonomy	aa_6_FPQ_Autonomy
+	aa_6_FPQ_Individualism	aa_6_FPQ_Individualism
+	aa_6_FPQ_Self_Reliance	aa_6_FPQ_Self_Reliance
+	aa_6_FPQ_Change	aa_6_FPQ_Change
+	aa_6_FPQ_Understanding	aa_6_FPQ_Understanding
+	aa_6_FPQ_Breadth_of_Interest	aa_6_FPQ_Breadth_of_Interest
+	aa_6_FPQ_Achievement	aa_6_FPQ_Achievement
+	aa_6_FPQ_Endurance	aa_6_FPQ_Endurance
+	aa_6_FPQ_Seriousness	aa_6_FPQ_Seriousness
+	TCI_Exploratory_Excitability	TCI_Exploratory_Excitability
+	CLS	CLS
+	PerspectiveTaking	PerspectiveTaking
+	FantasyScale	FantasyScale
+	EmpathicConcern	EmpathicConcern
+	PersonalDistress	PersonalDistress
+	Christian	Christian
+	Jewish	Jewish
+	Muslim	Muslim
+	Buddhist	Buddhist
+	RespForHardship	RespForHardship
+	Liberal	Liberal
+	Conservative	Conservative
+	SES	SES
+______________________________________________________________
+Event Level
+
+Description:
+	data: cell array, one cell per subject, with rectangular data matrix.
+	      Each row is one event, each column a variable, with names in .names
+	      The first 22 items (which begin with a lower case character) are the items that participants answered for every biography.  These items are listed in Table S2.  The next 7 items (beginning with an upper case character) are the feelings/attributions/similarity constructs, which are the sum of the 3 items (see Table S2).  "_mc" means mean-centered, within-subject.
+	      
+Names:
+	tender	tender
+	careR	careR
+	connected	connected
+	distress	distress
+	upsetR	upsetR
+	guilty	guilty
+	simInterests	simInterests
+	simJoysR	simJoysR
+	simMorals	simMorals
+	simEcon	simEcon
+	simEdu	simEdu
+	simSocPos	simSocPos
+	needMoneyR	needMoneyR
+	needOrg	needOrg
+	needHelp	needHelp
+	resp	resp
+	blame	blame
+	unjust	unjust
+	inspired	inspired
+	likeMeet	likeMeet
+	trust	trust
+	likelytohelp	likelytohelp
+	donatetotheircharity	donatetotheircharity
+	PosEmpathy	Tenderness
+	NegEmpathy	Personal Distress
+	InternalSimilarity	Internal Similarity
+	ExternalSimilarity	SES Similarity
+	Neediness	Neediness
+	Responsibility	Responsibility
+	Likability	Likability
+	DonationScale	DonationScale
+	donation	donation
+	hardship	hardship
+	sent1	sent1
+	sent2	sent2
+	sent3	sent3
+	subj_eth	subj_eth
+	subj_gender	subj_gender
+	subj_religion	subj_religion
+	target_eth	target_eth
+	target_gender	target_gender
+	targ_relig	targ_relig
+	target_image_id	target_image_id
+	target_name_id	target_name_id
+	PosEmpathy_mc	PosEmpathy_mc
+	NegEmpathy_mc	NegEmpathy_mc
+	Neediness_mc	Neediness_mc
+	Responsibility_mc	Responsibility_mc
+	Likability_mc	Likability_mc
+	InternalSimilarity_mc	InternalSimilarity_mc
+	ExternalSimilarity_mc	ExternalSimilarity_mc
+	donation_mc	donation_mc
+	simGender	Same Gender
+	simEth	Same Ethnicity
+	simRelig	same religion
+______________________________________________________________
