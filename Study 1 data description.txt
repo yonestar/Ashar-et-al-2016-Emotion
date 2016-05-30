@@ -231,7 +231,52 @@ Event Level
 Description:
 	data: cell array, one cell per subject, with rectangular data matrix.
 	      Each row is one event, each column a variable, with names in .names
-	      The first 22 items (which begin with a lower case character) are the items that participants answered for every biography.  These items are listed in Table S2.  The next 7 items (beginning with an upper case character) are the feelings/attributions/similarity constructs, which are the sum of the 3 items (see Table S2).  "_mc" means mean-centered, within-subject.
+	      The first 22 items (which begin with a lower case character) are the items that participants answered for every biography.  These items are listed in Table S2.  The next 7 items (beginning with an upper case character) are the feelings/attributions/similarity constructs, which are the sum of the 3 items (see Table S2),  minimum = 3 and max = 21.  The Tenderness and Distress constructs in the paper are the variables called "PosEmpathy" and "NegEmpathy", respectively.  "_mc" means mean-centered, within-subject.
+
+	      donation is an 11 point likert:  1 is $0, and 11 is $1.  The DonationScale is only two items, donation item and "I would be very likely to help this person" item.  DonationScale was not used in the paper.  Note: its a combination of an 11 point likert and a 7 point likert, so range is 2 - 18.  HOWEVER b/c the rails program imputes values for scales when one of the scale items is missing, if the second item is missing then the scale score is imputed based of the first item, which is an 11-point likert, so in some cases the max is 22.
+
+	      sent1, sent2, and sent3 contain the IDs indicating which sentences formed the biography.  These IDs can be referenced in the file textGen/csvs/sentences.txt
+
+	      "targ" or "target" refer to biographies, which were called targets in the code (i.e., donation targets)
+
+	      Below are codes for ethnicities, gender, and religion:
+
+		def eth_code(string) for BIOGRAPHIES
+			return '1' black
+			return '2' white
+			return '3'  #other
+		end
+
+		 def eth_code(string) for PARTICIPANTS
+			return '1' black
+			return '2' white
+			return '3' ASIAN
+		    4 native
+		    5 other
+		    6 hispanic
+		end
+
+
+		def gender_code(val)
+			return '1' male
+			return '2' female
+			return '3' -- unknown
+		end
+		    
+		def relig_code(val)
+		  return '1' if val == "Christian"
+		  return '2' if val == "Muslim"
+		  return '3' if val == "Jewish"
+		  return '4' if val == "Buddhist"
+		  return '5' if val == "Atheist"
+		  return '6' if val == "Hindu"
+		  #7 means spiritual Not Otherwise Specified, like teaches meditation, or serves veggie meals at temple
+		  return '8' if val == "Other" #user entered Other
+		  return '9' #user didn't answer the q  
+		end
+
+
+
 	      
 Names:
 	tender	tender
